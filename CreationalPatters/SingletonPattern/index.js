@@ -8,6 +8,7 @@ class Store {
     this.name = name;
     this.inventory = inventory;
     logger.log(`New store of name ${name} has ${this.inventory.length} items`);
+    _logger.log(`New store of name ${name} has ${this.inventory.length} items`);
   }
 }
 

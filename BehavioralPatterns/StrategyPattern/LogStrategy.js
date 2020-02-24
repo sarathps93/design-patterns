@@ -1,6 +1,6 @@
 const path = require("path");
 const { appendFile } = require("fs");
-const morse = require("morse");
+const morse = require("morse"); // install it first
 
 class LogStrategy {
   static toMorseCode(timestamp, message) {
